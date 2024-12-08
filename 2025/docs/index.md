@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# Home
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the OWASP Non-Human-Identity Top 10 2025!
 
-## Commands
+This site details the chosen top 10 risks associated with usage and deployment of non-human identities (NHIs) in development systems and lifecycle.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Contributions to the project are most welcome. For details, see: [contributing](CONTRINUTING.md)

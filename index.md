@@ -24,16 +24,16 @@ The list includes the most pressing issues in using NHIs within the development 
 
 Below is a sneak peak of the NHI top 10 risks:
 
-* [NHI1:2025 - Improper Offboarding]({{ site.baseurl }}/2025/1-improper-offboarding.md)
-* [NHI1:2025 - Secret Leakage]({{ site.baseurl }}/2025/2-secret-leakage.md)
-* [NHI1:2025 - Vulnerable Third-Party NHI]({{ site.baseurl }}/2025/3-vulnerable-third-party-nhi.md)
-* [NHI1:2025 - Insecure Authentication]({{ site.baseurl }}/2025/4-insecure-authentication.md)
-* [NHI1:2025 - Overprivileged NHI]({{ site.baseurl }}/2025/5-overprivileged-nhi.md)
-* [NHI1:2025 - Insecure Cloud Deployment Configurations]({{ site.baseurl }}/2025/6-insecure-cloud-deployment-configurations.md)
-* [NHI1:2025 - Long-Lived Secrets]({{ site.baseurl }}/2025/7-long-lived-secrets.md)
-* [NHI1:2025 - Environment Isolation]({{ site.baseurl }}/2025/8-environment-isolation.md)
-* [NHI1:2025 - NHI Reuse]({{ site.baseurl }}/2025/9-nhi-reuse.md)
-* [NHI1:2025 - Human Use of NHI]({{ site.baseurl }}/2025/10-human-use-of-nhi.md)
+* [NHI1:2025 - Improper Offboarding]({{ site.baseurl }}/2025/1-improper-offboarding/)
+* [NHI1:2025 - Secret Leakage]({{ site.baseurl }}/2025/2-secret-leakage/)
+* [NHI1:2025 - Vulnerable Third-Party NHI]({{ site.baseurl }}/2025/3-vulnerable-third-party-nhi/)
+* [NHI1:2025 - Insecure Authentication]({{ site.baseurl }}/2025/4-insecure-authentication/)
+* [NHI1:2025 - Overprivileged NHI]({{ site.baseurl }}/2025/5-overprivileged-nhi/)
+* [NHI1:2025 - Insecure Cloud Deployment Configurations]({{ site.baseurl }}/2025/6-insecure-cloud-deployment-configurations/)
+* [NHI1:2025 - Long-Lived Secrets]({{ site.baseurl }}/2025/7-long-lived-secrets/)
+* [NHI1:2025 - Environment Isolation]({{ site.baseurl }}/2025/8-environment-isolation/)
+* [NHI1:2025 - NHI Reuse]({{ site.baseurl }}/2025/9-nhi-reuse/)
+* [NHI1:2025 - Human Use of NHI]({{ site.baseurl }}/2025/10-human-use-of-nhi/)
 
 ### Road Map
 1. Submission of project proposal

@@ -16,7 +16,7 @@ Non-human identities are prevalent in usage for facilitating creation of applica
 
 ## NHI Top 10 - 2025
 
-We're excited to present the [OWASP Non-Human Identities Top 10 2025](({{ site.baseurl }}/2025))!
+We're excited to present the [OWASP Non-Human Identities Top 10 2025]({{ site.baseurl }}/2025)!
 
 The list includes the most pressing issues in using NHIs within the development lifecycle, ranked according to their exploitability, prevelance, detectability and impact. 
 

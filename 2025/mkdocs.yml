@@ -14,9 +14,7 @@ theme:
 
 nav:
   - Home: index.md
-  - 2025:
-    - NHI1:2025 testtest: 2025/test.md
-    - NHI1:2025 testtest1: 2025/test.md
+  - test: test.md
 
 # Optional: Additional configuration for plugins, markdown extensions, etc.
 markdown_extensions:

@@ -47,7 +47,9 @@ jobs:
 
       # Move compiled MkDocs into the Jekyll _site/2025 directory
       - name: Move MkDocs output
-        run: mv 2025/site _site/2025
+        run: |
+          mkdir -p _site/2025
+          mv 2025/site/* _site/2025/
 
       # Deploy to gh-pages branch
       - name: Deploy to gh-pages

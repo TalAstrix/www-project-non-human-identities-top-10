@@ -27,6 +27,6 @@ Non-human identities are prevalent in usage for facilitating creation of applica
 
 ### Test
 
-[Link to 2025 website](/2025/site)
+[Link to 2025 website]({{ site.baseurl }}/2025/site)
 
 

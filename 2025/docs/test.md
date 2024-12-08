@@ -24,3 +24,5 @@ cd yourproject
 ```bash
 pip install -r requirements.txt
 ```
+
+4. Trigger

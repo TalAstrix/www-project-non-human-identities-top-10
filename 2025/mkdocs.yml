@@ -41,3 +41,6 @@ markdown_extensions:
 
 plugins:
   - search
+
+extra:
+  favicon: "../assets/images/favicon.ico"

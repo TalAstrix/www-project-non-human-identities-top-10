@@ -43,4 +43,4 @@ plugins:
   - search
 
 extra:
-  favicon: "/images/favicon.png"
+  favicon: "images/favicon.png"

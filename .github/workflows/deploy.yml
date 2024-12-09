@@ -48,6 +48,7 @@ jobs:
       # Move compiled MkDocs into the Jekyll _site/2025 directory
       - name: Move MkDocs output
         run: |
+          rm -rf _site/2025
           mkdir -p _site/2025
           mv 2025/site/* _site/2025/
 

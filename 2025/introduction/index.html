@@ -824,9 +824,9 @@
 <h2 id="examples-of-risks-and-breaches">Examples of Risks and Breaches<a class="headerlink" href="#examples-of-risks-and-breaches" title="Permanent link">&para;</a></h2>
 <p>In recent worlds, with the increase of prevalence in using NHIs, real-world incidents involving a compromised NHI have grown exponentially. Some of the highest profile incidents are presented below and demonstrate the risks of insecure NHIs:</p>
 <ul>
-<li><strong>Exposed API Keys</strong>: Publicly available secrets have led to unauthorized access and data breaches.</li>
-<li><strong>Credential Theft</strong>: Poorly managed secrets have been exploited to compromise critical systems.</li>
-<li><strong>Overprivileged Service Accounts</strong>: Attackers have used excessive permissions to escalate access and exfiltrate sensitive data.</li>
+<li><a href="https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/"><strong>Microsoft's Midnight Blizzard Breach (January 2024)</strong></a>: A nation-state actor, Midnight Blizzard, initiated an attack against Microsoft's tenant. After gaining access to a non-production Microsoft 365 test tenant, they exploited a legacy OAuth application — an unmanaged non-human identity — with full privileges to access Microsoft's production environment. This led to unauthorized access to corporate email accounts, resulting in the exfiltration of sensitive communications and documents. </li>
+<li><a href="https://sec.okta.com/articles/2023/11/unauthorized-access-oktas-support-case-management-system-root-cause"><strong>Okta's Support System Breach (November 2023)</strong></a>: Okta has experienced a security breach involving a compromised service account. An employee had saved the credentials for this service account to their personal Google account after signing in on an Okta-managed device. The compromise of the employee's personal Google account allowed attackers to obtain these credentials, granting unauthorized access to Okta's customer support system. The attackers accessed files related to 134 customers, including HTTP Archive (HAR) files containing sensitive data like session tokens.</li>
+<li><a href="https://www.bleepingcomputer.com/news/security/internet-archive-breached-again-through-stolen-access-tokens/"><strong>Internet Archive's Zendesk Support Platform Breach (October 2024)</strong></a>: Attackers exploited unrotated access tokens tied to the Internet Archive's Zendesk support platform, leading to unauthorized access and potential data exposure.  This incident highlights the importance of regularly rotating and securing non-human identity credentials to prevent unauthorized access. </li>
 </ul>
 <hr />
 <h2 id="about-the-owasp-nhi-top-10-project">About the OWASP NHI Top 10 Project<a class="headerlink" href="#about-the-owasp-nhi-top-10-project" title="Permanent link">&para;</a></h2>
@@ -835,19 +835,18 @@
 <p>As NHIs become more prevalent, securing them has become as important as protecting human users. This project aims to:</p>
 <ul>
 <li>Raise awareness of NHI-related security challenges.</li>
-<li>Offer actionable insights for managing and securing NHIs.</li>
-<li>Help organizations prioritize risks and implement best practices.</li>
+<li>Offer actionable insights for securing NHIs from their most dangerous risks.</li>
+<li>Help developers and organizations prioritize risks and implement best practices.</li>
 </ul>
 <h3 id="how-we-built-the-list">How We Built the List<a class="headerlink" href="#how-we-built-the-list" title="Permanent link">&para;</a></h3>
-<p>We identified key risks through real-world incidents, surveys, CVE databases, and industry input. Using the <a href="https://owasp.org/www-community/OWASP_Risk_Rating_Methodology">OWASP Risk Rating Methodology</a>, we ranked the top 10 risks to provide a clear, actionable framework.</p>
+<p>We identified key risks through real-world incidents, surveys, CVE databases, and industry input. Using the collected data and based on the <a href="https://owasp.org/www-community/OWASP_Risk_Rating_Methodology">OWASP Risk Rating Methodology</a>, we ranked the top 10 risks to provide a clear prioritized list.</p>
 <h3 id="what-developers-should-do">What Developers Should Do<a class="headerlink" href="#what-developers-should-do" title="Permanent link">&para;</a></h3>
 <p>Developers can use this project to:</p>
 <ol>
 <li>Understand the risks associated with NHIs in their applications.</li>
 <li>Apply the recommended practices to secure NHIs and mitigate threats.</li>
-<li>Monitor and improve their NHI management continuously.</li>
+<li>Monitor and improve their NHI security continuously.</li>
 </ol>
-<p>By securing NHIs, you protect your applications, infrastructure, and users from significant risks.</p>
 
 
 
